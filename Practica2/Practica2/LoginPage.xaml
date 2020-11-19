@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Practica2.LoginPage">
+    <ContentPage.Content>
+        <Grid>
+            <BoxView Color="White"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Image Grid.Row="0" Source="AALogoIntec.png" WidthRequest="100" HeightRequest="100" Margin="0,50,0,30"/>
+
+                <StackLayout Grid.Row="1" Padding="30,20">
+                    <Entry x:Name="EntryEmail" Placeholder="Email"/>
+                    <Entry x:Name="EntryPassword" Placeholder="Password"/>
+                    <Label x:Name="ErrorLabel"/>
+                    <Button Text="LogIn" HorizontalOptions="Center" WidthRequest="100" TextColor="White" BackgroundColor="Red" BorderRadius ="20" Clicked="Login_Clicked"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button  x:Name="ToRegister"  Text="Registration" HorizontalOptions="Center" TextColor="Red" Clicked ="RegisterPage_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
