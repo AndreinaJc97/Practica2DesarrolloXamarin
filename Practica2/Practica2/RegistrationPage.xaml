@@ -17,8 +17,8 @@
 
                     <StackLayout Grid.Row="1" Padding="30,20">
                         <Entry x:Name="EntryEmail" Placeholder="Email"/>
-                        <Entry x:Name="EntryPassword" Placeholder="Password"/>
-                        <Entry Placeholder="Confirm Password" FontSize="16" x:Name="EntryUserConfirmPassword"/>
+                        <Entry x:Name="EntryPassword" Placeholder="Password" IsPassword="true"/>
+                        <Entry x:Name="EntryUserConfirmPassword" Placeholder="Confirm Password" FontSize="16" IsPassword="true"/>
 
                         <Label x:Name="ErrorLabel"/>
                         <Label x:Name="MessageLogIn"/>
