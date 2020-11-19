@@ -20,8 +20,8 @@
                     <Label x:Name="ErrorLabel"/>
                     <Label x:Name="MessageLogIn"/>
                     <Button Text="LogIn" HorizontalOptions="Center" WidthRequest="100" TextColor="White" BackgroundColor="Red" BorderRadius ="20" Clicked="Login_Clicked"/>
-                    <StackLayout Orientation="Horizontal">
-                        <Button  x:Name="ToRegister"  Text="Registration" HorizontalOptions="Center" TextColor="Red" Clicked ="RegisterPage_Clicked"/>
+                    <StackLayout Margin="0,75,0,30">
+                        <Button  x:Name="ToRegister"  Text="Register" HorizontalOptions="Center" TextColor="Red" Clicked ="RegisterPage_Clicked"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>

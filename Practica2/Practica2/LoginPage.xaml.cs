@@ -36,9 +36,9 @@ namespace Practica2
 
         }
 
-        private async void RegisterPage_Clicked(object sender, EventArgs e)
+        private void RegisterPage_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new RegistrationPage());
+            App.Current.MainPage = new RegistrationPage();
         }
     }
 }

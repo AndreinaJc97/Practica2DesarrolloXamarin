@@ -17,9 +17,14 @@ namespace Practica2
             InitializeComponent();
         }
 
-        void Handled_Clicked(object sender, EventArgs e) 
+        void Register_Clicked(object sender, EventArgs e) 
         { 
         
+        }
+
+        private void GoBack_Clicked(object sender, EventArgs e)
+        {
+
         }
 
     }
