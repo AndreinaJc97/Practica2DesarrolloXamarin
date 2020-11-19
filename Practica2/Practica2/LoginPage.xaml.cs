@@ -19,11 +19,21 @@ namespace Practica2
         private async void Login_Clicked(object sender, EventArgs e)
         {
             var email = EntryEmail.Text;
+            var password = EntryPassword.Text;
 
-            if (true)
+            if (email == null)
             {
-
+                ErrorLabel.Text = "Campo Email y/o contraseña no puede estar vacío";
             }
+            else if (password == null)
+            {
+                ErrorLabel.Text = "Campo Email y/o contraseña no puede estar vacío";
+            }
+            else
+            {
+                MessageLogIn.Text = "Bienvenido " + email;
+            }
+
         }
 
         private async void RegisterPage_Clicked(object sender, EventArgs e)

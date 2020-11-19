@@ -18,6 +18,7 @@
                     <Entry x:Name="EntryEmail" Placeholder="Email"/>
                     <Entry x:Name="EntryPassword" Placeholder="Password"/>
                     <Label x:Name="ErrorLabel"/>
+                    <Label x:Name="MessageLogIn"/>
                     <Button Text="LogIn" HorizontalOptions="Center" WidthRequest="100" TextColor="White" BackgroundColor="Red" BorderRadius ="20" Clicked="Login_Clicked"/>
                     <StackLayout Orientation="Horizontal">
                         <Button  x:Name="ToRegister"  Text="Registration" HorizontalOptions="Center" TextColor="Red" Clicked ="RegisterPage_Clicked"/>
