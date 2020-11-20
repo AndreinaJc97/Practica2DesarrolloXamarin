@@ -2,10 +2,9 @@
 
 ## Vista del Login Page
 
-Inline-style: 
 ![alt text](https://github.com/AndreinaJc97/Practica2DesarrolloXamarin/blob/master/Imagenes/WhatsApp%20Image%202020-11-19%20at%208.02.57%20PM%20(1).jpeg "Login Page")
 
-Inline-style: 
+
 ![alt text](https://github.com/AndreinaJc97/Practica2DesarrolloXamarin/blob/master/Imagenes/WhatsApp%20Image%202020-11-19%20at%208.02.59%20PM%20(2).jpeg?raw=true "Login Page Message")
 
 ## Vista del Register Page
